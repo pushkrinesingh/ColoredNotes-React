@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+  height: 100vh;
+}
+
+.wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 30%;
+  height: 100vh;
+  background: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper textarea {
+    font-size: 18px;
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+.wrapper input[type="color"] {
+  width: 60px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.wrapper button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.wrapper button:hover {
+  background: #1d4ed8;
+}
+.wrapper h2,
+h3 {
+  color: rgb(9, 163, 218);
+}
+
+.container {
+  margin-left: 30%;
+  padding: 20px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.container div {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  overflow: auto;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.container div span {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.container div span:hover {
+  transform: scale(1.2);
+}
