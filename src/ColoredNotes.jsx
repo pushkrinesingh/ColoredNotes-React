@@ -24,7 +24,7 @@ const ColoredNotes = () => {
     <>
       <div className="wrapper">
         <h2>
-          Keep Your Notes Here <FaHandPointRight />
+          Keep Your Notes Here <FaHandPointRight style={{ color: "black" }} />
         </h2>
         <textarea
           placeholder="Write A Note Here"
@@ -32,7 +32,8 @@ const ColoredNotes = () => {
           value={Input}
         ></textarea>
         <h3>
-          Select Your Color Of Choice <FaHandPointDown />
+          Select Your Color Of Choice{" "}
+          <FaHandPointDown style={{ color: "red", fontSize: "25px" }} />
         </h3>
         <input
           type="color"

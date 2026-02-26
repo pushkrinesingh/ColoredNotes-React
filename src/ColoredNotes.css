@@ -55,11 +55,14 @@ body {
 .wrapper button:hover {
   background: #1d4ed8;
 }
-.wrapper h2,
-h3 {
+h2 {
+  font-size: 28px;
   color: rgb(9, 163, 218);
 }
-
+h3 {
+  font-size: 22px;
+  color: rgb(9, 163, 218);
+}
 .container {
   margin-left: 30%;
   padding: 20px;
@@ -109,9 +112,7 @@ h3 {
   }
 }
 
-
 @media (max-width: 768px) {
-
   .wrapper {
     width: 40%;
     padding: 15px;
@@ -127,12 +128,9 @@ h3 {
     height: 160px;
     font-size: 14px;
   }
-
 }
 
-
 @media (max-width: 600px) {
-
   .wrapper {
     position: relative;
     width: 100%;
@@ -150,12 +148,9 @@ h3 {
     height: auto;
     min-height: 120px;
   }
-
 }
 
-
 @media (max-width: 400px) {
-
   .wrapper textarea {
     height: 120px;
     font-size: 16px;
@@ -170,5 +165,4 @@ h3 {
     width: 100%;
     font-size: 14px;
   }
-
 }
